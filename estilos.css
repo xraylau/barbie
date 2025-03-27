@@ -1,0 +1,145 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cuerpo de la página */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #e0218a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f0d5d2;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+aside {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+
+section h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #e0218a;}
+
+aside h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #e0218a;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+aside p{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+ aside ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+section ul li strong {
+    color: #e0218a;
+}
+
+/* Galería de imágenes */
+#multimedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#multimedia figure {
+    width: 300px;
+    text-align: center;
+}
+
+#multimedia img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    color: #e0218a;
+}
+
